@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>summer sale shop</title>
+    <!-- connect tailwindcss and daisy ui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- includes google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- connect custom css styles file -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="bg-[#F9F6E2]">
+        <div
+          class="max-w-[1100px] py-6 mx-auto flex items-center justify-between"
+        >
+          <div class="flex-1 text-center">
+            <p class="text-3xl font-normal m-5">---SALE FEVER---</p>
+            <h1 class="font-bold text-6xl mt-8">Purchase TK 200 or</h1>
+            <h1 class="font-bold text-6xl">above & get 20% off</h1>
+            <div class="flex justify-center items-center space-x-3 mt-8">
+              <p class="font-medium">Use Promo Code</p>
+              <p class="bg-[#E527B2] text-white font-semibold rounded px-5">
+                SELL200
+              </p>
+            </div>
+          </div>
+          <div>
+            <img
+              class="w-[500px] h-[500px]"
+              src="./images/Summer 1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </header>
+      <!-- products section -->
+      <section
+        class="max-w-[1150px] mt-10 grid grid-cols-12 mx-auto"
+        id="products"
+      >
+        <div id="products_container" class="col-span-9">
+          <!-- kitchenwares -->
+          <div class="mt-5">
+            <h1 class="text-4xl font-semibold">Kitchenwares</h1>
+            <!-- products container -->
+            <div class="grid grid-cols-3 mt-4 gap-4 mr-4">
+              <!-- kitchen Product 1 -->
+              <div
+                class="bg-white cursor-pointer product_card p-4 text-center rounded"
+              >
+                <div class="bg-[#1111110D] rounded flex justify-center p-3">
+                  <img src="./images/prod1.png" alt="" />
+                </div>
+                <div class="mt-4">
+                  <div class="rating rating-xs">
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                  </div>
+                  <h3 id="product_name">K. Accessories</h3>
+                  <p><span id="product_price">39.00</span> TK</p>
+                </div>
+              </div>
+              <!-- kitchen product 2 -->
+              <div
+                class="bg-white cursor-pointer product_card p-4 text-center rounded"
+              >
+                <div class="bg-[#1111110D] rounded flex justify-center p-3">
+                  <img src="./images/prod2.png" alt="" />
+                </div>
+                <div class="mt-4">
+                  <div class="rating rating-xs">
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                  </div>
+                  <h3 id="product_name">L. Accessories</h3>
+                  <p><span id="product_price">55.00</span> TK</p>
+                </div>
+              </div>
+              <!-- kitchen product 3 -->
+              <div
+                class="bg-white cursor-pointer product_card p-4 text-center rounded"
+              >
+                <div class="bg-[#1111110D] rounded flex justify-center p-3">
+                  <img src="./images/prod3.png" alt="" />
+                </div>
+                <div class="mt-4">
+                  <div class="rating rating-xs">
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                      checked
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                    <input
+                      type="radio"
+                      name="rating-5"
+                      class="mask mask-star-2 bg-orange-400"
+                    />
+                  </div>
+                  <h3 id="product_name">Home Cooker</h3>
+                  <p><span id="product_price">99.00</span> TK</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="shopping_container" class="col-span-3 border p-4">
+          <div class="bg-white p-4">
+            <p class="text-lg">Have coupon ?</p>
+            <div class="flex items-center space-x-3 mt-3">
+              <input
+                id="coupon_input"
+                type="text"
+                class="w-32 px-3 rounded outline-none appearance-none border-2 border-[#1111110D]"
+                placeholder="coupon code"
+              />
+              <button
+                disabled
+                id="coupon_apply_button"
+                class="bg-gray-300 px-3 rounded text-white"
+                type="button"
+              >
+                Apply
+              </button>
+            </div>
+          </div>
+          <!-- cart products -->
+          <div
+            id="cart_container"
+            class="bg-white p-4 space-y-3 mt-4 rounded"
+          ></div>
+          <div id="amount_summary" class="mt-4 bg-white p-4 rounded">
+            <p>Total price: <span id="total_price">0</span>TK</p>
+            <p>Discount : <span id="discount_amount">0</span>TK</p>
+            <p>Total: <span id="total">0</span>TK</p>
+          </div>
+          <div>
+            <button
+              onclick="my_modal_5.showModal()"
+              id="make_purchase_button"
+              disabled
+              class="bg-[#E527B2] btn w-full rounded mt-4 text-white"
+            >
+              Make Purchase
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- modal -->
+      <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box flex flex-col items-center justify-center">
+          <img src="./images/modal-img.png" alt="" />
+          <h3 class="font-bold text-[40px] mt-4">Congratulations</h3>
+          <p class="py-4">Your Purchase the product</p>
+          <div class="modal-action">
+            <form method="dialog">
+              <button
+                id="go_home"
+                class="bg-[#E527B2] btn w-full rounded mt-4 text-white"
+              >
+                Go Home
+              </button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+    </main>
+    <script src="./app/utility.js"></script>
+    <script src="./app/main.js"></script>
+  </body>
+</html>
